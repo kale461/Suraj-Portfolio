@@ -1,0 +1,412 @@
+body{
+    height: 95vh;
+}
+/* Navbar */
+.navbar{
+    padding: 5px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    color: black;
+    position: sticky;
+    transition: border-bottom 2s ease-in;
+    float: right;
+
+
+}
+
+.navbar li a:hover{
+    color: black;
+    border-bottom:2px solid blue;
+    opacity: 0.8;
+}
+ul li{
+    list-style: none;            
+
+
+}
+li a{
+    text-decoration: none;
+    padding: 15px;
+    color:black;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+/* About file CSS */
+.about-grid{
+    display: grid;
+    grid-template-columns: repeat(5,265px);
+    transform: translateY(200px);
+    grid-gap: 3rem;
+
+    }
+.about{
+    text-align: center;
+    transform: translateY(120px);
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.aboutSection{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    min-height: 80vh;
+}
+
+
+.aboutimg{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 50px;
+    top: 70px;
+    border-radius: 20%;
+}
+ h3{
+    font-size: 2rem;
+    position: absolute;
+    top: -15px;
+    left:1000px;
+    color: teal;
+}
+.aboutContent{
+    position: relative;
+    top: 0px;
+    left: 750px;
+    padding: 10px;
+    border-left: 3px solid #ddd;
+   
+}
+.aboutContent h5,span{
+    font-size: 1.5rem;
+    line-height: 3.1rem;
+}
+.aboutContent>span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.profession{
+    line-height: 1.5rem;
+}
+.currentaddress{
+    line-height: 2rem;
+}
+.mainaddress{
+    line-height: 2rem;
+}
+
+.outerdiv{
+    background-color: grey;
+    padding: 2px;
+}
+.innerdiv{
+    background-color: teal;
+    padding: 5px;
+    width: 80%;
+
+}
+.outerdivcss{
+    background-color: grey;
+    padding: 2px;
+}
+.innerdivcss{
+    background-color: teal;
+    padding: 5px;
+    width: 70%;
+
+}
+.outerdivJS{
+    background-color: grey;
+    padding: 2px;
+}
+.innerdivJS{
+    background-color: teal;
+    padding: 5px;
+    width: 60%;
+
+}
+.outerdivAng{
+    background-color: grey;
+    padding: 2px;
+}
+.innerdivAng{
+    background-color: teal;
+    padding: 5px;
+    width: 60%;
+
+}
+.outerdivNode{
+    background-color: grey;
+    padding: 2px;
+}
+.innerdivNode{
+    background-color: teal;
+    padding: 5px;
+    width: 50%;
+
+}
+.outerdivMongo{
+    background-color: grey;
+    padding: 2px;
+}
+.innerdivMongo{
+    background-color: teal;
+    padding: 5px;
+    width: 70%;
+
+}
+
+/* Home file CSS */
+
+.container{
+    height: 760px;
+    width: 1494px;
+    background-color: aliceblue;
+}
+
+.Profile{
+    font-size: x-large;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    transform: translateY(14px);
+    background-color: teal;
+    color: white;
+    padding: 5px;
+    width: 100px;
+    
+}
+
+.text{
+    position: relative;
+    left: 300px;
+    top: 195px;
+}
+span{
+    font-size:x-large;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+h4{
+    transform: translateX(30px);
+    font-size: 2.7rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hi{
+    font-size: 3.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.homeimg{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    top: -100px;
+    left: 900px;
+    border-radius: 50%;
+    border: 5px solid skyblue;
+}
+.btn{
+    position: relative;
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    top: -90px;
+    left: -58px;
+    border-radius: 20%;
+    text-decoration: none;
+}
+.btn:hover{
+    opacity: 0.9;
+    background-color: black;
+}
+button:hover{
+    background-color: black;
+    color:whitesmoke;
+    cursor: pointer;
+}
+
+.icons a{
+    position: relative;
+    top: -115px;
+    left: 470px;
+    font-size: 2rem;
+    padding-left: 5px;
+}
+.facebook:hover{
+    color: blue;
+    cursor: pointer;
+}
+.linkedin:hover{
+    color: skyblue;
+    cursor: pointer;
+}
+.insta:hover{
+    color: lightcoral;
+    cursor: pointer;
+}
+
+/* skills CSS */
+
+
+
+/* Blog files CSS */
+.blogs{
+    text-align: center;
+    transform: translateY(300px);
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+} 
+
+.blog-grid{
+    display: grid;
+    grid-template-columns: repeat(3,315px);
+    grid-gap: 13rem;
+    text-align: center;
+    transform: translateY(300px);
+}
+
+.blog-grid div>p{
+    transform: translateX(50px);
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.travel{
+    transform: translateY(30px);
+    font-family: 'Courier New', Courier, monospace;
+    width: 430px;
+
+}
+.food{
+    font-family: 'Courier New', Courier, monospace;
+    transform: translateY(30px);
+
+
+}
+.nature{
+    font-family: 'Courier New', Courier, monospace;
+    transform: translateY(30px);
+
+
+}
+.photography{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.hotels{
+    font-family: 'Courier New', Courier, monospace;
+}
+.cities{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.travel:hover{
+    opacity: 0.9;
+
+}
+.food:hover{
+    opacity: 0.9;
+
+}
+.nature:hover{
+    opacity: 0.9;
+
+}
+
+.photography:hover{
+    opacity: 0.9;
+
+}
+.hotels:hover{
+    opacity: 0.9;
+
+}
+.cities:hover{
+    opacity: 0.9;
+
+}
+
+#travel{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#food{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#nature{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#photography{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#hotels{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#cities{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+/* Contact file CSS */
+
+.contactSection{
+    min-height: 99vh;
+    background: url('https://file.forms.app/sitefile/How%20do%20I%20create%20a%20contact%20form%20without%20any%20coding%20-%20cover.jpg')no-repeat center center/cover;
+    transform: translateY(400px);
+}
+.form-wrap{
+    padding: 100px;
+    position: absolute;
+    top: 50px;
+    left: 900px;
+    
+   
+
+}
+.form-group input{
+    padding: 10px;
+    width: 100%;
+    border: none;
+}
+.form-group textarea{
+    border: none;
+}
+.form-group label{
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.9;
+    background-color: darkblue;
+    color: white;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 300px;
+    left: 320px;
+    font-size: 6vh;
+
+}

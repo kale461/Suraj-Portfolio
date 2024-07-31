@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+      .navbar{
+    padding: 5px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    color: black;
+    position: sticky;
+    transition: border-bottom 2s ease-in;
+    float: left;
+
+
+}
+    ul li{
+        list-style: none;            
+
+
+    }
+    li a{
+        text-decoration: none;
+        padding: 15px;
+        color:white;
+        font-weight: bold;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+    }
+    .navbar a:hover{
+        color: black;
+        border-bottom: 2px solid blue;
+    }
+
+.contactSection{
+    min-height: 98.5vh;
+    background: url('https://file.forms.app/sitefile/How%20do%20I%20create%20a%20contact%20form%20without%20any%20coding%20-%20cover.jpg')no-repeat center center/cover;
+}
+.form-wrap{
+    padding: 100px;
+    position: absolute;
+    top: 50px;
+    left: 900px;
+    
+   
+
+}
+.form-group input{
+    padding: 10px;
+    width: 100%;
+    border: none;
+}
+.form-group textarea{
+    border: none;
+}
+.form-group label{
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.9;
+    background-color: darkblue;
+    color: white;
+}
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    position: absolute;
+    top: 300px;
+    left: 320px;
+    font-size: 6vh;
+
+}
+    </style>
+</head>
+<body>
+     <!-- Navbar -->
+     <nav class="navbar">
+        <ul>
+            <li>
+                <a href="../views/home.html">Home</a>
+                <a href="../views/about.html">About</a>
+                <a href="../views/blog.html">Blogs</a>
+                <a href="..views/contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+     <!-- Contact Page -->
+
+     <div class="contactSection">
+        <form>
+            <h1>Contact Me</h1>
+            <div class="form-wrap">
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text">
+                </div><br>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="text">
+                </div><br>
+                <div class="form-group">
+                    <label>Message</label><br>
+                    <textarea name="" id="" rows="20" cols="48"></textarea>
+                </div><br>
+                <button>Send Message</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
