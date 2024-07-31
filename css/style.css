@@ -208,6 +208,9 @@ h4{
     border-radius: 50%;
     border: 5px solid skyblue;
 }
+.homeimg:hover{
+    opacity:0.9;
+}
 .btn{
     position: relative;
     padding: 15px;
